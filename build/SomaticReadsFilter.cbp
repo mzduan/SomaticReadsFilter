@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SomaticReadsFilter"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/duan/Desktop/SomaticReadsFilter/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/duan/Desktop/SomaticReadsFilter/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/duan/Desktop/SomaticReadsFilter/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SomaticReadsFilter">
+				<Option output="/Users/duan/Desktop/SomaticReadsFilter/bin/SomaticReadsFilter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/duan/Desktop/SomaticReadsFilter/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/duan/Desktop/SomaticReadsFilter/src/include"/>
+					<Add directory="/Users/duan/Desktop/SomaticReadsFilter/src/mult_thread"/>
+					<Add directory="/Users/duan/Desktop/SomaticReadsFilter/thirdpart"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/src/Makefile&quot;  VERBOSE=1 SomaticReadsFilter"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SomaticReadsFilter/fast">
+				<Option output="/Users/duan/Desktop/SomaticReadsFilter/bin/SomaticReadsFilter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/duan/Desktop/SomaticReadsFilter/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/duan/Desktop/SomaticReadsFilter/src/include"/>
+					<Add directory="/Users/duan/Desktop/SomaticReadsFilter/src/mult_thread"/>
+					<Add directory="/Users/duan/Desktop/SomaticReadsFilter/thirdpart"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/src/Makefile&quot;  VERBOSE=1 SomaticReadsFilter/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_hash_set">
+				<Option output="/Users/duan/Desktop/SomaticReadsFilter/bin/test_hash_set" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/duan/Desktop/SomaticReadsFilter/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/duan/Desktop/SomaticReadsFilter/src/include"/>
+					<Add directory="/Users/duan/Desktop/SomaticReadsFilter/src/mult_thread"/>
+					<Add directory="/Users/duan/Desktop/SomaticReadsFilter/thirdpart"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/test/Makefile&quot;  VERBOSE=1 test_hash_set"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_hash_set/fast">
+				<Option output="/Users/duan/Desktop/SomaticReadsFilter/bin/test_hash_set" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/duan/Desktop/SomaticReadsFilter/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/duan/Desktop/SomaticReadsFilter/src/include"/>
+					<Add directory="/Users/duan/Desktop/SomaticReadsFilter/src/mult_thread"/>
+					<Add directory="/Users/duan/Desktop/SomaticReadsFilter/thirdpart"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/test/Makefile&quot;  VERBOSE=1 test_hash_set/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/duan/Desktop/SomaticReadsFilter/build/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/duan/Desktop/SomaticReadsFilter/src/bio_string.cpp">
+			<Option target="SomaticReadsFilter"/>
+			<Option target="test_hash_set"/>
+		</Unit>
+		<Unit filename="/Users/duan/Desktop/SomaticReadsFilter/src/bit_vector.cpp">
+			<Option target="SomaticReadsFilter"/>
+		</Unit>
+		<Unit filename="/Users/duan/Desktop/SomaticReadsFilter/src/cbf.cpp">
+			<Option target="SomaticReadsFilter"/>
+		</Unit>
+		<Unit filename="/Users/duan/Desktop/SomaticReadsFilter/src/cbf_vector.cpp">
+			<Option target="SomaticReadsFilter"/>
+		</Unit>
+		<Unit filename="/Users/duan/Desktop/SomaticReadsFilter/src/fasta_reader.cpp">
+			<Option target="SomaticReadsFilter"/>
+			<Option target="test_hash_set"/>
+		</Unit>
+		<Unit filename="/Users/duan/Desktop/SomaticReadsFilter/src/include/hashset.h">
+			<Option target="test_hash_set"/>
+		</Unit>
+		<Unit filename="/Users/duan/Desktop/SomaticReadsFilter/src/main.cpp">
+			<Option target="SomaticReadsFilter"/>
+		</Unit>
+		<Unit filename="/Users/duan/Desktop/SomaticReadsFilter/test/test_create_hashset.cpp">
+			<Option target="test_hash_set"/>
+		</Unit>
+		<Unit filename="/Users/duan/Desktop/SomaticReadsFilter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/duan/Desktop/SomaticReadsFilter/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/duan/Desktop/SomaticReadsFilter/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
