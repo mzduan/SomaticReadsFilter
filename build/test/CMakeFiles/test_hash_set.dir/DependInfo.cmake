@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/duan/Desktop/SomaticReadsFilter/src/bio_string.cpp" "/Users/duan/Desktop/SomaticReadsFilter/build/test/CMakeFiles/test_hash_set.dir/__/src/bio_string.cpp.o"
-  "/Users/duan/Desktop/SomaticReadsFilter/src/fasta_reader.cpp" "/Users/duan/Desktop/SomaticReadsFilter/build/test/CMakeFiles/test_hash_set.dir/__/src/fasta_reader.cpp.o"
-  "/Users/duan/Desktop/SomaticReadsFilter/test/test_create_hashset.cpp" "/Users/duan/Desktop/SomaticReadsFilter/build/test/CMakeFiles/test_hash_set.dir/test_create_hashset.cpp.o"
+  "/root/SomaticReadsFilter/src/bio_string.cpp" "/root/SomaticReadsFilter/build/test/CMakeFiles/test_hash_set.dir/__/src/bio_string.cpp.o"
+  "/root/SomaticReadsFilter/src/fasta_reader.cpp" "/root/SomaticReadsFilter/build/test/CMakeFiles/test_hash_set.dir/__/src/fasta_reader.cpp.o"
+  "/root/SomaticReadsFilter/test/test_create_hashset.cpp" "/root/SomaticReadsFilter/build/test/CMakeFiles/test_hash_set.dir/test_create_hashset.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

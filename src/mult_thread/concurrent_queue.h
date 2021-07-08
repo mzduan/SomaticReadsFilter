@@ -6,6 +6,7 @@
 #define CONCURRENT_HASH_SET_KMER_QUEUE_H
 #include <iostream>
 #include <mutex>
+#include <condition_variable>
 class uint64_concurrent_queue
 {
 private:

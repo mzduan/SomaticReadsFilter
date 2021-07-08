@@ -9,9 +9,13 @@
 ../src/include/bio_string.h
 iostream
 -
+string.h
+-
 
 ../src/include/bit_vector.h
 iostream
+-
+string.h
 -
 
 ../src/include/cbf.h
@@ -70,17 +74,21 @@ winsock2.h
 bam.h
 ../thirdpart/samtools/bam.h
 
-/Users/duan/Desktop/SomaticReadsFilter/src/main.cpp
+/root/SomaticReadsFilter/src/bit_vector.cpp
+bit_vector.h
+/root/SomaticReadsFilter/src/bit_vector.h
+
+/root/SomaticReadsFilter/src/main.cpp
 iostream
 -
 fasta_reader.h
-/Users/duan/Desktop/SomaticReadsFilter/src/fasta_reader.h
+/root/SomaticReadsFilter/src/fasta_reader.h
 hashset.h
-/Users/duan/Desktop/SomaticReadsFilter/src/hashset.h
+/root/SomaticReadsFilter/src/hashset.h
 bit_vector.h
-/Users/duan/Desktop/SomaticReadsFilter/src/bit_vector.h
+/root/SomaticReadsFilter/src/bit_vector.h
 cbf.h
-/Users/duan/Desktop/SomaticReadsFilter/src/cbf.h
+/root/SomaticReadsFilter/src/cbf.h
 samtools/sam.h
-/Users/duan/Desktop/SomaticReadsFilter/src/samtools/sam.h
+/root/SomaticReadsFilter/src/samtools/sam.h
 

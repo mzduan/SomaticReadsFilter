@@ -6,6 +6,7 @@
 #define SOMATICREADSFILTER_BIO_STRING_H
 
 #include <iostream>
+#include <string.h>
 class bio_string
 {
 private:

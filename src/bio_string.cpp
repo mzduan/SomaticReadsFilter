@@ -4,7 +4,7 @@
 
 
 #include "bio_string.h"
-
+using namespace std;
 int bio_string::_string_size_roundup_power2(unsigned int v)
 {
     v--;

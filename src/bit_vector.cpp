@@ -3,7 +3,7 @@
 //
 #include "bit_vector.h"
 
-
+using namespace std;
 bitvec::bitvec(uint64_t cap)
 {
     if(cap==0)

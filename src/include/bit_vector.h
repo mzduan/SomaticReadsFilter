@@ -6,7 +6,7 @@
 #define SOMATICREADSFILTER_BIT_VECTOR_H
 
 #include <iostream>
-
+#include <string.h>
 #define ONES_STEP_4 0x1111111111111111ULL
 #define ONES_STEP_8 0x0101010101010101ULL
 class bitvec
